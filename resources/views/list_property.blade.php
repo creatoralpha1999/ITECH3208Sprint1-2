@@ -13,6 +13,8 @@
                     <p class="card-text">Price:: {{$property->price}}</p>
                     <a href="{{route('request-property',['id'=>$property->id])}}"
                         class="btn btn-block btn-primary">Request Property</a>
+                        <a href="https://www.facebook.com/"
+                        class="btn btn-block btn-primary">Share Ad</a>
                 </div>
             </div>
         </div>
